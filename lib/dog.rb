@@ -26,4 +26,6 @@ end
 
 Dog.new("indy")
 Dog.new("cali")
+Dog.new("sammy")
+Dog.new("mac")
 binding.pry
