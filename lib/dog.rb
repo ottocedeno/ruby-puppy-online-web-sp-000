@@ -18,7 +18,9 @@ class Dog
     @@all.each {|dog_object| puts dog_object.name}
   end
 
-  
+  def save
+
+  end
 end
 
 binding.pry
