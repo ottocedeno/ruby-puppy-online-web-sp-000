@@ -18,6 +18,7 @@ class Dog
     @@all.each {|dog_object| puts dog_object.name}
   end
 
+  
 end
 
 binding.pry
