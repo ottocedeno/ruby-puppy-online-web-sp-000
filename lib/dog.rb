@@ -25,4 +25,5 @@ class Dog
 end
 
 Dog.new("indy")
+Dog.new("cali")
 binding.pry
