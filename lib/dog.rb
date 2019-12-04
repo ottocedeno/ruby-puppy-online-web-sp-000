@@ -29,4 +29,5 @@ Dog.new("cali")
 Dog.new("sammy")
 Dog.new("mac")
 Dog.new("moe")
+
 binding.pry
