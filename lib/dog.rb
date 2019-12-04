@@ -10,6 +10,10 @@ class Dog
     save
   end
 
+  def save
+    @@all << self
+  end
+
   def self.all
     @@all
   end
@@ -18,9 +22,7 @@ class Dog
     @@all.each {|dog_object| puts dog_object.name}
   end
 
-  def save
-    @@all << self
-  end
+
 end
 
 Dog.new("indy")
