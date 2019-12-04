@@ -18,7 +18,6 @@ class Dog
     @@all.each {|dog_object| puts dog_object.name}
   end
 
-  private
   def save
     @@all << self
   end
